@@ -9,5 +9,15 @@ package com.mycompany.ejemplitocondominio;
  * @author usuario
  */
 class Perfil {
+    private String nombreApellido;
+
+    public Perfil(String nombreApellido) {
+        this.nombreApellido = nombreApellido;
+    }
+
+    void agregarResidente(Residente residente) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+    
     
 }

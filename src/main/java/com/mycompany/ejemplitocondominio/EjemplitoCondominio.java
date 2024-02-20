@@ -11,6 +11,11 @@ package com.mycompany.ejemplitocondominio;
 public class EjemplitoCondominio {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        Perfil perfilAdminPrueba = new Perfil("Cristian Sangucho");
+        ParqueaderoPrivado parqueaderoPrivado = new ParqueaderoPrivado(5);
+        Departamento departamentoPrueba = new Departamento(parqueaderoPrivado, 43.2);
+        perfilAdminPrueba.agregarResidente(new Residente("Jean Cotera", departamentoPrueba));
+        
     }
 }

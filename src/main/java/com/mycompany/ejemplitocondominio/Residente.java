@@ -9,5 +9,8 @@ package com.mycompany.ejemplitocondominio;
  * @author usuario
  */
 public class Residente {
+
+    public Residente(String nombreApellido, Departamento departamentoPrueba) {
+    }
     
 }

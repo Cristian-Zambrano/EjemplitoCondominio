@@ -8,6 +8,11 @@ package com.mycompany.ejemplitocondominio;
  *
  * @author usuario
  */
-public class ParqueaderoPrivado {
+public class ParqueaderoPrivado extends InmueblePrivado{
+    private double metrosCuadrados;
+
+    public ParqueaderoPrivado(double metrosCuadrados) {
+        this.metrosCuadrados = metrosCuadrados;
+    }
     
 }
