@@ -8,6 +8,9 @@ package com.mycompany.ejemplitocondominio;
  *
  * @author usuario
  */
-public class ParquederoPrivado {
+public class ParquederoPrivado extends ParqueaderoPrivado {
+
+    public ParquederoPrivado() {
+    }
     
 }
