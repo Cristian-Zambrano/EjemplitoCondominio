@@ -13,8 +13,8 @@ public class Departamento extends InmueblePrivado{
     private double metrosCuadrados;
     //private Perfil propietario;
 
-    public Departamento(ParqueaderoPrivado parqueaderoPrivado, double metrosCuadrados/*, Perfil propietario*/) {
-        this.parqueaderoPrivado = parqueaderoPrivado;
+    public Departamento(double metrosCuadrados/*, Perfil propietario*/) {
+        this.parqueaderoPrivado = new ParquederoPrivado();
         this.metrosCuadrados = metrosCuadrados;
         //this.propietario = propietario;
     }
